@@ -20,19 +20,19 @@ async function fetchWeather(query){
             description.innerHTML=`${data.weather[0].description}`
             switch(data.weather[0].main){
                 case "Smoke":
-                    img.src="./image/Smoke.png";
+                    img.src="../weatherApp./image/Smoke.png";
                     break;
                 case "Haze":
-                    img.src="./image/clear.png";
+                    img.src="../weatherApp./image/clear.png";
                     break;
                 case "Clouds":
-                    img.src="./image/smoke.png";
+                    img.src="../weatherApp./image/smoke.png";
                     break;
                 case "Rain":
-                    img.src="./image/cloudy.png";
+                    img.src="../weatherApp./image/cloudy.png";
                     break;
                 case "Mist":
-                    img.src="./image/Smoke.png";
+                    img.src="../weatherApp./image/Smoke.png";
                     break;
 
             }
