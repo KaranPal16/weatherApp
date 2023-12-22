@@ -14,20 +14,21 @@
         <div class="container flex">
             <div class="first-box flex">
                 <div class="search flex">
-                    <input type="text">
-                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" id="input-text">
+                    <button id="input-button"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <h1 class="location">Lucknow</h1>
                 <div class="hero-1 ">
-                    <img src="https://placehold.co/300x200" alt="">
-                    <h1>30<sup>o</sup><span>C</span></h1>
+                    <img id="image" src="https://placehold.co/300x200" alt="">
+                    <h1 ><span id="temp"></span><sup>o</sup><span>C</span></h1>
+                    <h3 id="description"></h3>
                 </div>
                 <div class="sub-hero flex">
 
                     <div class="flex item">
                         <div><i class="fa-solid fa-wind"></i></div>
                         <div>
-                            <h2>150 m/h</h2>
+                            <h2 id="wind-speed">150 M/h</h2>
                             <p>Wind Speed</p>
                         </div>
                     </div>
@@ -35,7 +36,7 @@
                     <div class="flex item">
                         <div><i class="fa-solid fa-droplet"></i></div>
                         <div>
-                            <h2>150 m/h</h2>
+                            <h2 id="humidity">15%</h2>
                             <p>Humidity</p>
                         </div>
                     </div>
